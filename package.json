@@ -1,0 +1,26 @@
+{
+  "name": "amazon-tv-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation assignment for Amazon TV search and product data extraction",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "node run.js",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "qa",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
